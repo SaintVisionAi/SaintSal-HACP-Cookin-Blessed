@@ -1,0 +1,33 @@
+{
+  "name": "saintsal-final-repo",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "verify:env": "node scripts/verify-env.mjs"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "@supabase/supabase-js": "^2.45.0",
+    "next": "14.2.5",
+    "openai": "^4.57.0",
+    "pino": "^9.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "stripe": "^14.27.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "eslint": "^9.5.0",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
